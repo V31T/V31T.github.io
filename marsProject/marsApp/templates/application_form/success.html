@@ -1,0 +1,9 @@
+{% extends 'application_form/base.html' %}
+
+{% block content %}
+<h2>Application Submitted Successfully!</h2>
+    <p>Thank you for your interest in visiting Mars. We will review your application and get back to you soon!</p>
+    <a href="{% url 'index' %}"><button type = "submit" class = "btn-primary">Back to Home</button></a>
+{% endblock %}
+
+

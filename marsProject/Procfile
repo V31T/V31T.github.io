@@ -1,0 +1,1 @@
+web: gunicorn mars_visit_application.wsgi --log-file -

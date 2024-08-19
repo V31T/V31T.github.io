@@ -1,0 +1,118 @@
+/* General Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.form-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form textarea,
+form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Button Styling */
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #d32f2f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}

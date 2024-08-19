@@ -1,0 +1,11 @@
+{% extends 'application_form/base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2>Ready to Visit Mars?</h2>
+    <p>Fill out the application form to apply for a chance to visit Mars!</p>
+    <a href="{% url 'application_stage1' %}"><button type = "submit" class = "btn-primary">Apply Now</button></a>
+    
+</div>
+{% endblock %}
+
